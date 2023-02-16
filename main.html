@@ -9,23 +9,17 @@
 <body>
 	<form method="get">
 		<div>
-			<label for="#name">Name*</label>
-				<input id="#name" type="text" required>
+			<label for="name">Name*</label>
+				<input id="name" type="text" required>
 		</div>
 		<div>
-			<label for="#email">Email*</label>
-			<input type="email" required id="#email">
+			<label for="email">Email*</label>
+			<input type="email" required id="email">
 		</div>
 		<div>
-			 <label for="male">Male</label>
-            <input type="radio" id="male" name="gender" value="m">
-
-			<label for="female">female</label>
-            <input type="radio" id="female" name="gender" value="f">
-
-			<label for="other">other</label>
-            <input type="radio" id="other" name="gender" value="oth">
-
+			<label>Gender*</label>
+			<input type="radio" value="male" name="gender" required>
+			<input type="radio"  name="gender" required>
 		</div>
 		<div>
 			<label for="laptop">Laptop Brands</label>
@@ -37,16 +31,16 @@
 		</div>
 		<div>
 			<lable for="Age">Age*</lable>
-			<input type="number">
+			<input type="number" id="age" required>
 		</div>
 		<div>
-			<lable for="DOB">DOB*</lable>
-			<input type="date" required>
+			<label for="dob">DOB*</label>
+			<input type="date" id="dob" required>
 		</div>
 
 		<div>
 			<lable for="password">Password*</lable>
-			<input type="password" required>
+			<input type="password" id="password" required>
 		</div>
 
 		<div>
