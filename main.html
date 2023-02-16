@@ -10,7 +10,7 @@
 	<form method="get">
 		<div>
 			<label for="#name">Name*</label>
-				<input id="#name" type="text" placeholder="EnterName" required>
+				<input id="#name" type="text" required>
 		</div>
 		<div>
 			<label for="#email">Email*</label>
@@ -28,14 +28,12 @@
 
 		</div>
 		<div>
-			<lable for="Apple">Apple</lable>
-			<input type="checkbox" id="Apple"> 
-			
-			<lable for="Asus">Asus</lable>
-			<input type="checkbox" id="Asus">
-			
-			<lable for="Hp">Hp</lable>
-			<input type="checkbox" id="Hp">
+			<label for="laptop">Laptop Brands</label>
+			<select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			</select>
 		</div>
 		<div>
 			<lable for="Age">Age*</lable>
@@ -51,6 +49,10 @@
 			<input type="password" required>
 		</div>
 
+		<div>
+			<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio">
+			</div>
 		<div>
 <!-- 			<button>Submit</button> -->
 			<input type="submit">
